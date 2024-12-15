@@ -1,4 +1,4 @@
-# GenGraph
+# GenSearchGraph
 
 This project leverages Google's Gemini AI model to generate Matplotlib graphs based on user-provided topics. It automates the process of searching for relevant information and creating a graph.
 
@@ -20,7 +20,6 @@ This tool automates the creation of graphs by taking a user-defined topic as inp
 
 - **Automated Information Retrieval**: Uses Gemini's Google Search capabilities to gather data related to the user-provided topic.
 - **AI-Powered Graph Generation**: Utilizes Google's Gemini AI to generate Python code for creating graphs.
-- **Simple Command-Line Interface**: Easy to use with a simple prompt for the user.
 
 ## Installation
 
@@ -29,8 +28,8 @@ To get started with the Gemini Graph Generator, follow these steps:
 1.  **Clone the repository**:
 
     ```sh
-    git clone https://github.com/nassiramn/GenGraph
-    cd GenGraph
+    git clone https://github.com/nassiramn/GenSearchGraph
+    cd GenSearchGraph
     ```
 
 2.  **Install the required dependencies**:
@@ -48,7 +47,7 @@ To get started with the Gemini Graph Generator, follow these steps:
       GEMINI_API_KEY=your_api_key_here
       ```
 
-    - You can obtain a Gemini API key from [Google AI Studio](https://aistudio.google.com/).
+      You can obtain a Gemini API key from [Google AI Studio](https://aistudio.google.com/).
 
 ## Usage
 
